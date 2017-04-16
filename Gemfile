@@ -9,6 +9,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'paperclip', '~> 5.0.0'
 gem 'simple_form'
+gem 'bootstrap-sass'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'jquery-rails'
