@@ -1,0 +1,17 @@
+<div class="posts-wrapper">
+  <div class="row">
+    <div class="post">
+      <div class="post-head">
+        <div class="name">Charles Clemens</div>
+      </div>
+      <div class="image">
+        <div class="center-block">
+          <%= link_to (image_tag @post.image.url(:medium),
+                        class: 'img-responsive'), posts_path %>
+        </div>
+        <p class="caption"><%= @post.caption %></p>
+        <div class="text-center"><%= link_to "Cancel", posts_path %></div>
+      </div>
+    </div>
+  </div>
+</div>
