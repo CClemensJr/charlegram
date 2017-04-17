@@ -12,7 +12,7 @@ class PostsController < ApplicationController
     redirect_to posts_path
   end
 
-  def read
+  def show
   end
 
   def update
