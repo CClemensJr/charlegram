@@ -10,6 +10,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'paperclip', '~> 5.0.0'
 gem 'simple_form'
 gem 'bootstrap-sass'
+gem 'devise'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'jquery-rails'
